@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="card-container">
+  <div class="result-panel">
+    <h3>Your Result</h3>
+    <div class="score-circle">
+      <span class="score-big" id="total-score">0</span>
+      <span class="score-out-of">of 100</span>
+    </div>
+    <h2 id="result-text">Great</h2>
+    <p id="result-desc">Calculating your result...</p>
+  </div>
+
+  <div class="summary-panel">
+    <h3>Summary</h3>
+    
+    <div class="summary-list">
+      <div class="summary-item reaction">
+        <span class="item-title"><img src="./assets/images/icon-reaction.svg" > Reaction</span>
+        <span class="item-score"><strong id="reaction-score">0</strong> / 100</span>
+      </div>
+      <div class="summary-item memory">
+        <span class="item-title"><img src="./assets/images/icon-memory.svg" > Memory</span>
+        <span class="item-score"><strong id="memory-score">0</strong> / 100</span>
+      </div>
+      <div class="summary-item verbal">
+        <span class="item-title"><img src="./assets/images/icon-verbal.svg" > Verbal</span>
+        <span class="item-score"><strong id="verbal-score">0</strong> / 100</span>
+      </div>
+      <div class="summary-item visual">
+        <span class="item-title"><img src="./assets/images/icon-visual.svg" > Visual</span>
+        <span class="item-score"><strong id="visual-score">0</strong> / 100</span>
+      </div>
+    </div>
+
+    <button class="continue-btn"  id="continue-btn">Continue</button>
+  </div>
+</div>  
+<div class="attribution">
+    Challenge<br> by <br><a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend <br>Mentor</a>. <br>
+    Coded<br> by<br> <a href="#">Kamogelo<br>Innocent<br>Sekgobela</a>.
+</div>
+<script src="data.js"></script>
+</body>
+</html>
