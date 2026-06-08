@@ -183,4 +183,13 @@ body {
     padding: 30px;
   }
 }
-
+footer {
+  color: #fff;
+  padding: 20px 30px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  transform: translateY(-50%);
+  Font-size: 0.8rem;
+  text-align: center;
+}
